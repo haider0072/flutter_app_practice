@@ -20,7 +20,7 @@ class NewProduct extends StatelessWidget {
             RaisedButton(
               color: Theme.of(context).accentColor,
               child: Text('Go Back'),
-              onPressed: () => Navigator.pop(context),
+              onPressed: () => Navigator.pop(context, true),
             )
           ],
         ),
